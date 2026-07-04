@@ -24,5 +24,15 @@ int main(){
     cout<<((3>5)&&(3<5))<<endl;//AND
     cout<<((3<=5)!=(3>5))<<endl;//NOT
 
+    //uniary operators
+    b=++a;
+    cout<<b<<endl;//13
+    b=a++;
+    cout<<b<<endl;//13
+    b=--a;
+    cout<<b<<endl;//13
+    b=a--;
+    cout<<b<<endl;//13
+    return 0;
 
 }
